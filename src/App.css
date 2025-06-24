@@ -1,21 +1,32 @@
 body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: lightblue;
   font-family: "Oswald", sans-serif;
 }
 
+.page-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .form-container {
   background-color: rgb(153, 216, 236);
-  display: grid;
   place-items: center;
   border: 1px solid blue;
   border-radius: 10px;
-  margin-left: 850px;
-  margin-right: 850px;
-  margin-top: 300px;
   box-shadow: rgba(95, 85, 236, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   padding: 10px;
   position: relative;
   transition: all 0.5s ease-in-out;
+  width: 100%;
+  max-width: 400px;
 }
 
 h1 {

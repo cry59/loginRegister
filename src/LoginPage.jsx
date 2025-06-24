@@ -34,7 +34,7 @@ export default function LoginPage() {
             )}
 
             {step === 'welcome' && (
-                
+
                 <h1 className='welcome'>Hoşgeldin, {loggedInUser}!</h1>
             )}
         </>
@@ -76,7 +76,7 @@ function Login({ onLogin }) {
     }
 
     return (
-        <>
+        <> <div className="page-wrapper">
             <div className="form-container">
                 <h1>Giriş Sayfası</h1>
                 <form onSubmit={handleLogin} autoComplete="off">
@@ -87,6 +87,7 @@ function Login({ onLogin }) {
                     <button>Giriş Yap</button>
                 </form>
             </div>
+        </div>
         </>
     );
 }
